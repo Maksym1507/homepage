@@ -158,8 +158,13 @@ body {
 
 .skills__header {
   color: var(--secondary-text-color);
+  text-transform: uppercase;;
   text-align: center;
   margin-bottom: 15px;
+}
+
+.skills_list {
+    padding-left: 30px;
 }
 
 .skills__text {
