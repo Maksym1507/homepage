@@ -62,7 +62,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .experiences {
+  .pet_projects {
     margin-right: 0;
   }
 }
@@ -158,13 +158,13 @@ body {
 
 .skills__header {
   color: var(--secondary-text-color);
-  text-transform: uppercase;;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
 }
 
 .skills_list {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .skills__text {
@@ -172,25 +172,26 @@ body {
   text-align: justify;
 }
 
-.experiences {
+.pet_projects {
   flex: 1 1 60%;
   margin-right: 50px;
 }
 
-.experiences__header {
+.pet_projects__header {
   color: var(--secondary-text-color);
   text-align: left;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.pet_projects__company-header-durability {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-.experiences__company-header-name {
+.pet_projects__company-header-name {
   color: var(--primary-text-color);
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
@@ -198,25 +199,37 @@ body {
   margin-bottom: 20px;
 }
 
-.experiences__company-project {
+.pet_projects__title {
   margin-left: 15px;
+  margin-top: 20px;
   margin-bottom: 25px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
-.experiences__company-project-role {
+.pet_projects__link {
+  text-decoration: none;
+  color: #666;
+}
+
+.pet_projects__company-project-role {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-.experiences__company-project-name {
+.pet_projects__company-project-name {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.pet_projects__description {
+  padding-left: 10px;
+}
+
+.pet_projects__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
 }
@@ -231,6 +244,7 @@ body {
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
+  text-transform: uppercase;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -245,6 +259,7 @@ body {
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
